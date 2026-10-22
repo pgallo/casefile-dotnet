@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Casefile.Tests</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <ProjectReference Include="..\..\src\Casefile.Search\Casefile.Search.csproj" />
+    <ProjectReference Include="..\..\src\Casefile.Core\Casefile.Core.csproj" />
+    <ProjectReference Include="..\..\src\Casefile.Api\Casefile.Api.csproj" />
+  </ItemGroup>
+</Project>

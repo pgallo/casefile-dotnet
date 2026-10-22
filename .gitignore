@@ -1,0 +1,12 @@
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+.idea/
+TestResults/
+*.swp
+# runtime snapshot written by the API
+src/Casefile.Api/data/
+*.json.tmp

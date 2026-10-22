@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Casefile.Core</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Casefile.Search\Casefile.Search.csproj" />
+    <InternalsVisibleTo Include="Casefile.Tests" />
+  </ItemGroup>
+</Project>
